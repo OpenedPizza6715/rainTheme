@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的网站</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <header class="site-header">
+        <div class="container">
+            <h1 class="logo">我的网站</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#about">关于我们</a></li>
+                    <li><a href="#services">服务</a></li>
+                    <li><a href="#contact">联系</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 主要内容 -->
+    <main class="site-main">
+        <section id="home" class="hero-section">
+            <div class="container">
+                <h2>欢迎来到我们的网站</h2>
+                <p>这里是介绍内容...</p>
+                <a href="#about" class="btn">了解更多</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>关于我们</h2>
+                <p>这里是关于我们的详细介绍...</p>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2>我们的服务</h2>
+                <div class="service-item">
+                    <h3>服务一</h3>
+                    <p>服务一的描述...</p>
+                </div>
+                <div class="service-item">
+                    <h3>服务二</h3>
+                    <p>服务二的描述...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>联系我们</h2>
+                <form>
+                    <input type="text" placeholder="姓名" required>
+                    <input type="email" placeholder="邮箱" required>
+                    <textarea placeholder="留言" required></textarea>
+                    <button type="submit" class="btn">发送</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 我的网站. 保留所有权利。</p>
+        </div>
+    </footer>
+</body>
+</html>
